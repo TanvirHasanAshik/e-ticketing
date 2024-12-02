@@ -86,6 +86,9 @@ function handlePassengerInfo(modalId) {
 
 }
 
+function handleReload() {
+    location.reload();
+}
 function getElement(elementId) {
     const element = document.getElementById(elementId);
     return element;
